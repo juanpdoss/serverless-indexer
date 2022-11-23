@@ -34,7 +34,7 @@ async function deleteIndex(req) {
   const prevState = body.post.previous;
   const currState = body.post.current;
   const targetId = prevState.id ? prevState.id : currState.id;
-  const publishedStatus = prevState.status === 'published' ? true : false;
+  const test = "new change";
 
   // Only update Algolia index if a published article is
   // unpublished or deleted
