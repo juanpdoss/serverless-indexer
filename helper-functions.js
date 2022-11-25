@@ -11,6 +11,7 @@ const formatPost = (post) => {
       ? `https:${currProfileImg}`
       : currProfileImg;
   const algoliaFilterRegex = [/java\b/i];
+  const test= "second change";
 
   return {
     objectID: id,
